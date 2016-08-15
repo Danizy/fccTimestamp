@@ -1,0 +1,17 @@
+.main{
+  background-color: #AAAAAA;
+  display: block;
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -355px;
+}
+h1{
+  text-align: center;
+}
+.inner{
+  background-color: #DDDDDD;
+  display: block;
+  padding-left: 10px;
+}

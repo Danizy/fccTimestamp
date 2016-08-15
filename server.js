@@ -2,6 +2,7 @@ var express = require('express')
 var app = express();
 var mth = ['January', 'Febuary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
+app.use(express.static(__dirname + "/site"));
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/site/' + 'main.html');
 })
